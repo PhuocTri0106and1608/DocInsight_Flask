@@ -1,0 +1,10 @@
+tensorflow
+Flask
+matplotlib
+lungs-finder
+shap
+numpy
+flask-cors
+opencv-python
+cloudinary
+python-dotenv

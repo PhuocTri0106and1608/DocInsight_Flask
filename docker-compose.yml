@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  shap-api:
+    image: shap-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shap-api
+    environment:
+      - CLOUDINARY_NAME=dano2vyry 
+      - API_KEY=152882116935543 
+      - API_SECRET=M8Bsl2PXcG4umT-zKOTO718RXuI
+    ports:
+      - '5000:5000'
+    restart: always
+
+networks:
+  default:
+    external:
+      name: bridge
