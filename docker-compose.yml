@@ -8,9 +8,9 @@ services:
       dockerfile: Dockerfile
     container_name: shap-api
     environment:
-      - CLOUDINARY_NAME=dano2vyry 
-      - API_KEY=152882116935543 
-      - API_SECRET=M8Bsl2PXcG4umT-zKOTO718RXuI
+      - CLOUDINARY_NAME=*********8 
+      - API_KEY=*********** 
+      - API_SECRET=**************
     ports:
       - '5000:5000'
     restart: always
